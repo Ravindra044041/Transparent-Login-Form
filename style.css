@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1523297927020-8b58406e40f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    width: 500px;
+    height: 500px;
+    padding: 2rem 1.1rem;
+    background: linear-gradient( to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7) );
+    box-shadow: 3px 2px 6px 2px rgba(36, 36, 36, 0.836), -3px -2px 6px 2px rgba(36, 36, 36, 0.836);
+    font-family: "Poppins", sans-serif;
+}
+.header-text{
+    color: rgb(233, 233, 233);
+    font-size: 1.35rem;
+    letter-spacing: 2px;
+}
+.form_Elements{
+ display: flex;
+ flex-direction: column;   
+}
+.form_Elements input{
+    margin: 10px;
+    height: 30px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.forgetpass{
+    text-decoration: none;
+    margin-left: -88px;
+    margin-top: -8px;
+    font-size: 13px;
+    color: rgb(233, 233, 233);
+    font-weight: 500;
+}
+.forgetpass:hover{
+    color: #164c82
+}
+.login-button{
+    background-color: #004b7c;
+    border: none;
+    width: 210px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.login-button a{
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+.login-button:hover{
+ background-color: #013150;    
+}
+.or_Login{
+    color: white;
+}
+.social_buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.login_buttons{
+    padding: 5px 1.5rem;
+    margin: 10px 5px;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+}
+.social_buttons .login_buttons a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+#twit{
+    background-color: rgb(66, 103, 178);   
+}
+#twit:hover{
+    background-color: rgb(0, 64, 193);  
+}
+#insta{
+    background-color: rgb(225, 48, 108);
+}
+#insta:hover{
+    background-color: rgb(206, 0, 69);
+}
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-text{
+    color: white;
+}
+.bottom-link{
+  background-color: #00a524;
+    border: none;
+    width: 210px;
+    padding: 5px;
+    text-align: center;
+    margin: 15px 0px;  
+}
+.bottom-link a{
+  text-decoration: none;
+    color: #eeeeee;   
+}
+.bottom-link:hover{
+  background-color: #036618;
+  box-shadow: 0px 0px 1px 0px rgb(46, 44, 44);
+}
